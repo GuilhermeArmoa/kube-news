@@ -21,5 +21,5 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags:  |
-          guilhermearmoa:${{github:run:number}}
+          guilhermearmoa:${{github:run_number}}
           guilhermearmoa:latest
